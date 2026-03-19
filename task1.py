@@ -10,3 +10,6 @@ for line in file:
 file.close()
 
 # Your code below — use the students list
+for student in students:
+    print(', '.join(student))
+# could also use print(student) but it would include the brackets and quotes
